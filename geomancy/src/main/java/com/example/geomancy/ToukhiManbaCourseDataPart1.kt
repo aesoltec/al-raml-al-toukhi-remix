@@ -23,10 +23,10 @@ internal val toukhiManbaModulesPart1: List<CourseModule> =
         ),
       featuredFigures =
         listOf(
-          CourseFigureFocus(16, "Taliki (Al-Ṭarīq · 1111) — Quatre rangs impairs (le point pur en action sur les 4 éléments)"),
-          CourseFigureFocus(4, "Moussa (Al-Jamāʿa · 2222) — Quatre rangs pairs (l'équilibre réceptif et collectif)"),
-          CourseFigureFocus(1, "Adama (Al-Laḥyān · 1222) — Feu actif sur trois rangs pairs : noblesse d'ouverture"),
-          CourseFigureFocus(12, "Malidjou (Al-ʿAtaba al-Dākhila · 2111) — Porte d'entrée vers les débuts bénis"),
+          CourseFigureFocus(16, "Taliki (Taliki (Al-Ṭarīq) · 1111) — Quatre rangs impairs (le point pur en action sur les 4 éléments)"),
+          CourseFigureFocus(4, "Moussa (Moussa (Al-Jamāʿa) · 2222) — Quatre rangs pairs (l'équilibre réceptif et collectif)"),
+          CourseFigureFocus(1, "Adama (Adama (Al-Laḥyān) · 1222) — Feu actif sur trois rangs pairs : noblesse d'ouverture"),
+          CourseFigureFocus(12, "Malidjou (Malidjou (Al-ʿAtaba al-Dākhila) · 2111) — Porte d'entrée vers les débuts bénis"),
         ),
       takhtExample =
         CourseTakhtExample(
@@ -62,10 +62,10 @@ internal val toukhiManbaModulesPart1: List<CourseModule> =
         ),
       featuredFigures =
         listOf(
-          CourseFigureFocus(15, "Badra Ali (Al-Ijtimāʿ · 2112) — Figure de parité paire, demeure naturelle du Juge M15"),
-          CourseFigureFocus(2, "Ousmana (Qabḍ al-Dākhil · 2121) — Réception des biens et ancrage des Nièces"),
-          CourseFigureFocus(11, "Nouhoun (Al-Nuṣra al-Dākhila · 2211) — Victoire souveraine lorsqu'elle couronne M15"),
-          CourseFigureFocus(5, "Lawsana (Al-ʿAtaba al-Khārija · 1112) — Seuil sortant exigeant vigilance en M15/M16"),
+          CourseFigureFocus(15, "Badra Ali (Badra Ali (Al-Ijtimāʿ) · 2112) — Figure de parité paire, demeure naturelle du Juge M15"),
+          CourseFigureFocus(2, "Ousmana (Ousmana (Qabḍ al-Dākhil) · 2121) — Réception des biens et ancrage des Nièces"),
+          CourseFigureFocus(11, "Nouhoun (Nouhoun (Al-Nuṣra al-Dākhila) · 2211) — Victoire souveraine lorsqu'elle couronne M15"),
+          CourseFigureFocus(5, "Lawsana (Lawsana (Al-ʿAtaba al-Khārija) · 1112) — Seuil sortant exigeant vigilance en M15/M16"),
         ),
       takhtExample =
         CourseTakhtExample(
@@ -101,10 +101,10 @@ internal val toukhiManbaModulesPart1: List<CourseModule> =
         ),
       featuredFigures =
         listOf(
-          CourseFigureFocus(9, "Bayada (Al-Bayāḍ · ط = 9) — Clarté intellectuelle, écriture et lettres pures"),
-          CourseFigureFocus(14, "Djanfa Almami (Al-Jūdla · ن = 50) — Lettre Nūn et premier rang de la série ouest-africaine"),
-          CourseFigureFocus(6, "Solomana (Al-ʿUqla · و = 6) — Lettre Wāw, lien et calcul des retards"),
-          CourseFigureFocus(13, "Tontigui Garya (Al-Naqī al-Khadd · m = 40) — Lettre Mīm, douceur et concorde"),
+          CourseFigureFocus(9, "Bayada (Bayaro (Al-Bayāḍ) · ط = 9) — Clarté intellectuelle, écriture et lettres pures"),
+          CourseFigureFocus(14, "Djanfa Almami (Djanfa Almami (Al-Jūdla) · ن = 50) — Lettre Nūn et premier rang de la série ouest-africaine"),
+          CourseFigureFocus(6, "Solomana (Solomana (Al-ʿUqla) · و = 6) — Lettre Wāw, lien et calcul des retards"),
+          CourseFigureFocus(13, "Tontigui Garya (Tontigui Garya (Al-Naqī al-Khadd) · m = 40) — Lettre Mīm, douceur et concorde"),
         ),
       takhtExample =
         CourseTakhtExample(
@@ -140,10 +140,10 @@ internal val toukhiManbaModulesPart1: List<CourseModule> =
         ),
       featuredFigures =
         listOf(
-          CourseFigureFocus(8, "Lomara (Al-Ḥumra · Feu) — Tempérament chaud et sec : urgence, conflit ou ardeur"),
-          CourseFigureFocus(3, "Inzan (Qabḍ al-Khārij · Eau) — Tempérament froid et humide : dispersion ou fuite"),
-          CourseFigureFocus(7, "Mangouchi (Al-Inkis · Terre) — Tempérament froid et sec : enfouissement et lenteur"),
-          CourseFigureFocus(10, "Kalalaw (Al-Nuṣra al-Khārija · Feu) — Secours solaire sur l'axe des Awtād"),
+          CourseFigureFocus(8, "Lomara (Lomara (Al-Ḥumra) · Feu) — Tempérament chaud et sec : urgence, conflit ou ardeur"),
+          CourseFigureFocus(3, "Inzan (Inzan (Qabḍ al-Khārij) · Eau) — Tempérament froid et humide : dispersion ou fuite"),
+          CourseFigureFocus(7, "Mangouchi (Mangouchi (Al-Inkis) · Terre) — Tempérament froid et sec : enfouissement et lenteur"),
+          CourseFigureFocus(10, "Kalalaw (Kalalaw (Al-Nuṣra al-Khārija) · Feu) — Secours solaire sur l'axe des Awtād"),
         ),
       takhtExample =
         CourseTakhtExample(

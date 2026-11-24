@@ -24,10 +24,10 @@ internal val toukhiManbaModulesPart2: List<CourseModule> =
         ),
       featuredFigures =
         listOf(
-          CourseFigureFocus(7, "Mangouchi (Al-Inkis · 2221) — Maître des secrets enfouis, des coffres et de la Khabīya"),
-          CourseFigureFocus(9, "Bayada (Al-Bayāḍ · 2212) — Révèle les papiers, objets blancs, argent et pensées limpides"),
-          CourseFigureFocus(8, "Lomara (Al-Ḥumra · 2122) — Désigne un objet rouge, métallique ou une préoccupation vive"),
-          CourseFigureFocus(2, "Ousmana (Qabḍ al-Dākhil · 2121) — Objet conservé dans la main, bourse ou épargne"),
+          CourseFigureFocus(7, "Mangouchi (Mangouchi (Al-Inkis) · 2221) — Maître des secrets enfouis, des coffres et de la Khabīya"),
+          CourseFigureFocus(9, "Bayada (Bayaro (Al-Bayāḍ) · 2212) — Révèle les papiers, objets blancs, argent et pensées limpides"),
+          CourseFigureFocus(8, "Lomara (Lomara (Al-Ḥumra) · 2122) — Désigne un objet rouge, métallique ou une préoccupation vive"),
+          CourseFigureFocus(2, "Ousmana (Ousmana (Qabḍ al-Dākhil) · 2121) — Objet conservé dans la main, bourse ou épargne"),
         ),
       takhtExample =
         CourseTakhtExample(
@@ -63,10 +63,10 @@ internal val toukhiManbaModulesPart2: List<CourseModule> =
         ),
       featuredFigures =
         listOf(
-          CourseFigureFocus(15, "Badra Ali (Al-Ijtimāʿ · 2112) — Figure par excellence de la jonction (Ittiṣāl) et des retrouvailles"),
-          CourseFigureFocus(5, "Lawsana (Al-ʿAtaba al-Khārija · 1112) — Signal classique de séparation (Infiṣāl) ou sortie"),
-          CourseFigureFocus(6, "Solomana (Al-ʿUqla · 1221) — Suspension ou frein empêchant la jonction immédiate"),
-          CourseFigureFocus(13, "Tontigui Garya (Al-Naqī al-Khadd · 1211) — Rapprochement doux et réconciliation des cœurs"),
+          CourseFigureFocus(15, "Badra Ali (Badra Ali (Al-Ijtimāʿ) · 2112) — Figure par excellence de la jonction (Ittiṣāl) et des retrouvailles"),
+          CourseFigureFocus(5, "Lawsana (Lawsana (Al-ʿAtaba al-Khārija) · 1112) — Signal classique de séparation (Infiṣāl) ou sortie"),
+          CourseFigureFocus(6, "Solomana (Solomana (Al-ʿUqla) · 1221) — Suspension ou frein empêchant la jonction immédiate"),
+          CourseFigureFocus(13, "Tontigui Garya (Tontigui Garya (Al-Naqī al-Khadd) · 1211) — Rapprochement doux et réconciliation des cœurs"),
         ),
       takhtExample =
         CourseTakhtExample(
@@ -102,10 +102,10 @@ internal val toukhiManbaModulesPart2: List<CourseModule> =
         ),
       featuredFigures =
         listOf(
-          CourseFigureFocus(16, "Taliki (Al-Ṭarīq · 1111) — Direction de la route, départ ou retour du voyageur"),
-          CourseFigureFocus(3, "Inzan (Qabḍ al-Khārij · 1212) — Dépense commerciale ou éloignement de l'objet perdu"),
-          CourseFigureFocus(13, "Tontigui Garya (Al-Naqī al-Khadd · 1211) — Harmonie conjugale et issue pacifiée d'un litige"),
-          CourseFigureFocus(11, "Nouhoun (Al-Nuṣra al-Dākhila · 2211) — Gain de cause devant l'autorité (M10) et prospérité"),
+          CourseFigureFocus(16, "Taliki (Taliki (Al-Ṭarīq) · 1111) — Direction de la route, départ ou retour du voyageur"),
+          CourseFigureFocus(3, "Inzan (Inzan (Qabḍ al-Khārij) · 1212) — Dépense commerciale ou éloignement de l'objet perdu"),
+          CourseFigureFocus(13, "Tontigui Garya (Tontigui Garya (Al-Naqī al-Khadd) · 1211) — Harmonie conjugale et issue pacifiée d'un litige"),
+          CourseFigureFocus(11, "Nouhoun (Nouhoun (Al-Nuṣra al-Dākhila) · 2211) — Gain de cause devant l'autorité (M10) et prospérité"),
         ),
       takhtExample =
         CourseTakhtExample(
@@ -141,10 +141,10 @@ internal val toukhiManbaModulesPart2: List<CourseModule> =
         ),
       featuredFigures =
         listOf(
-          CourseFigureFocus(1, "Adama (Al-Laḥyān · Jupiter) — Vertu, discernement éthique et bénédiction du maître"),
-          CourseFigureFocus(10, "Kalalaw (Al-Nuṣra al-Khārija · Soleil) — Élan victorieux en compétition"),
-          CourseFigureFocus(14, "Djanfa Almami (Al-Jūdla · Mars) — Initiative rapide dans le duel"),
-          CourseFigureFocus(4, "Moussa (Al-Jamāʿa · Lune) — Modération, nul ou décision portée par le groupe"),
+          CourseFigureFocus(1, "Adama (Adama (Al-Laḥyān) · Jupiter) — Vertu, discernement éthique et bénédiction du maître"),
+          CourseFigureFocus(10, "Kalalaw (Kalalaw (Al-Nuṣra al-Khārija) · Soleil) — Élan victorieux en compétition"),
+          CourseFigureFocus(14, "Djanfa Almami (Djanfa Almami (Al-Jūdla) · Mars) — Initiative rapide dans le duel"),
+          CourseFigureFocus(4, "Moussa (Moussa (Al-Jamāʿa) · Lune) — Modération, nul ou décision portée par le groupe"),
         ),
       takhtExample =
         CourseTakhtExample(

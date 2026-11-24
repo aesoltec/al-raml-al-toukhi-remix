@@ -40,7 +40,7 @@ val bahriCourseBook: CourseBook =
           featuredFigures =
             listOf(
               CourseFigureFocus(12, "Malidjou (Al-ʿAtaba al-Dākhila) — Symbole d'entrée bénie et d'ouverture du savoir"),
-              CourseFigureFocus(9, "Bayada (Al-Bayāḍ) — Pureté de l'âme exigée avant de toucher le sable"),
+              CourseFigureFocus(9, "Bayaro (Al-Bayāḍ) — Pureté de l'âme exigée avant de toucher le sable"),
               CourseFigureFocus(16, "Taliki (Al-Ṭarīq) — Le tracé originel sur le rivage d'Idrīs"),
             ),
           takhtExample =

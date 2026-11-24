@@ -42,7 +42,7 @@ val hawiCourseBook: CourseBook =
           featuredFigures =
             listOf(
               CourseFigureFocus(1, "Adama (Al-Laḥyān) — Figure lumineuse chantée en tête de l'Urjūza"),
-              CourseFigureFocus(9, "Bayada (Al-Bayāḍ) — Symbole de clarté doctrinale et de paix"),
+              CourseFigureFocus(9, "Bayaro (Al-Bayāḍ) — Symbole de clarté doctrinale et de paix"),
               CourseFigureFocus(11, "Nouhoun (Al-Nuṣra al-Dākhila) — Souveraineté et force royale"),
             ),
           takhtExample =
@@ -72,17 +72,17 @@ val hawiCourseBook: CourseBook =
             "Aux pages 112–113, 144 et 148 de « Ḥāwī al-Akhbār », l'auteur dévoile comment chaque figure engendre quatre visages relationnels par bascule d'un seul rang élémentaire, plus son Opposé total (Al-Ḍidd) et son Miroir vertical (Aṣḥāb).",
           classicalRules =
             listOf(
-              "Naẓar (Regard / Intention, p. 112) = Figure ⊕ Al-Laḥyān (1222), qui inverse uniquement le rang de Feu.",
-              "Nuṭq (Parole / Signal, p. 112) = Figure ⊕ Al-Ḥumra (2122), qui inverse uniquement le rang d'Air.",
-              "Ittiṣāl (Jonction / Accord, p. 113) = Figure ⊕ Al-Bayāḍ (2212), qui inverse uniquement le rang d'Eau.",
-              "Infiṣāl (Séparation / Blocage, p. 113) = Figure ⊕ Al-Inkis (2221), qui inverse uniquement le rang de Terre.",
-              "Al-Ḍidd (p. 144) = Figure ⊕ Al-Ṭarīq (1111) et Miroir Aṣḥāb (p. 148) = lecture renversée de Terre vers Feu.",
+              "Naẓar (Regard / Intention, p. 112) = Figure ⊕ Adama (Al-Laḥyān) (1222), qui inverse uniquement le rang de Feu.",
+              "Nuṭq (Parole / Signal, p. 112) = Figure ⊕ Lomara (Al-Ḥumra) (2122), qui inverse uniquement le rang d'Air.",
+              "Ittiṣāl (Jonction / Accord, p. 113) = Figure ⊕ Bayaro (Al-Bayāḍ) (2212), qui inverse uniquement le rang d'Eau.",
+              "Infiṣāl (Séparation / Blocage, p. 113) = Figure ⊕ Mangouchi (Al-Inkis) (2221), qui inverse uniquement le rang de Terre.",
+              "Al-Ḍidd (p. 144) = Figure ⊕ Taliki (Al-Ṭarīq) (1111) et Miroir Aṣḥāb (p. 148) = lecture renversée de Terre vers Feu.",
             ),
           featuredFigures =
             listOf(
               CourseFigureFocus(1, "Adama (Al-Laḥyān) — Opérateur du Naẓar (bascule du Feu)"),
               CourseFigureFocus(8, "Lomara (Al-Ḥumra) — Opérateur du Nuṭq (bascule de l'Air)"),
-              CourseFigureFocus(9, "Bayada (Al-Bayāḍ) — Opérateur de l'Ittiṣāl (bascule de l'Eau)"),
+              CourseFigureFocus(9, "Bayaro (Al-Bayāḍ) — Opérateur de l'Ittiṣāl (bascule de l'Eau)"),
               CourseFigureFocus(7, "Mangouchi (Al-Inkis) — Opérateur de l'Infiṣāl (bascule de la Terre)"),
             ),
           takhtExample =
@@ -114,7 +114,7 @@ val hawiCourseBook: CourseBook =
             listOf(
               "Camp A = M1 ⊕ M2 (l'état et la ressource du demandeur) face à Camp B = M7 ⊕ M8 (l'adversaire et son appui).",
               "Hiérarchie Quaternaire (p. 155) : Fortes Fastes (Adama, Ousmana, Nouhoun, Malidjou) > Mixtes Fastes > Mixtes Défavorables > Fortes Défavorables.",
-              "Présence d'Al-Jamāʿa (Moussa) entre les deux armées : annonce armistice, match nul ou partage équilibré.",
+              "Présence d'Moussa (Al-Jamāʿa) (Moussa) entre les deux armées : annonce armistice, match nul ou partage équilibré.",
               "Anatomie (Taskīn al-Aʿḍāʾ, pp. 61–62) : relie chaque figure à une région du corps pour localiser douleurs et signes.",
             ),
           featuredFigures =

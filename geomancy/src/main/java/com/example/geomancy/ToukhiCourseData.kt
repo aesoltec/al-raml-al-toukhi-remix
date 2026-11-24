@@ -120,7 +120,7 @@ val toukhiCourseBook: CourseBook =
           featuredFigures =
             listOf(
               CourseFigureFocus(7, "Mangouchi (Al-Inkis) — Indice des choses enfouies et secrets (Khabīya)"),
-              CourseFigureFocus(9, "Bayada (Al-Bayāḍ) — Clarté de l'esprit, écriture et vérité"),
+              CourseFigureFocus(9, "Bayaro (Al-Bayāḍ) — Clarté de l'esprit, écriture et vérité"),
               CourseFigureFocus(11, "Nouhoun (Al-Nuṣra al-Dākhila) — Intention noble et victoire assurée"),
               CourseFigureFocus(3, "Inzan (Qabḍ al-Khārij) — Dépense ou objet sorti de la main"),
             ),
@@ -134,9 +134,9 @@ val toukhiCourseBook: CourseBook =
               motherDotCounts = listOf(8, 5, 8, 6, 8, 8, 5, 6, 6, 7, 5, 5, 5, 5, 5, 7),
               interpretationSteps =
                 listOf(
-                  "M1 (Al-Ḥumra 2122) révèle une préoccupation ardente ou un conflit récent.",
-                  "M2 (Al-Bayāḍ 2212) et M3 (Al-ʿAtaba al-Dākhila 2111) orientent vers un écrit, un document ou une démarche officielle.",
-                  "M4 (Al-Ṭarīq 1111) place le souci sur un déplacement ou une décision en suspens.",
+                  "M1 (Lomara (Al-Ḥumra) 2122) révèle une préoccupation ardente ou un conflit récent.",
+                  "M2 (Bayaro (Al-Bayāḍ) 2212) et M3 (Malidjou (Al-ʿAtaba al-Dākhila) 2111) orientent vers un écrit, un document ou une démarche officielle.",
+                  "M4 (Taliki (Al-Ṭarīq) 1111) place le souci sur un déplacement ou une décision en suspens.",
                   "Compare le total des points aux seuils de 60 et 90 (Bāb 14) et relève l'élément dominant dans le Ḍamīr.",
                 ),
             ),
