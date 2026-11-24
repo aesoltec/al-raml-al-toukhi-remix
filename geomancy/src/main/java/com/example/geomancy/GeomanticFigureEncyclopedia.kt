@@ -557,7 +557,7 @@ data class InteractiveLesson(
  * Gestionnaire de leçons interactives avec terminologie unifiée.
  */
 object InteractiveLessonManager {
-  val lessons: List<InteractiveLesson> = emptyList()
+  val lessons: List<InteractiveLesson> = InteractiveLessonsData.lessons
 
   fun getLesson(id: String): InteractiveLesson? = lessons.find { it.id == id }
   fun getLessonsByLevel(level: Int): List<InteractiveLesson> = lessons.filter { it.level == level }
