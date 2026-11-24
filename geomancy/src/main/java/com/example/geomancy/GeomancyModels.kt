@@ -171,6 +171,10 @@ data class GeomanticFigure(
   val activeRankCount: Int
     get() = ranks.count { it == PointParity.ODD }
 
+  /** Représentation visuelle de la figure avec des points (• pour ODD, •• pour EVEN). */
+  val visualRepresentation: String
+    get() = ranks.joinToString("\n") { if (it == PointParity.ODD) "•" else "••" }
+
   val totalDots: Int
     get() = fire.dots + air.dots + water.dots + earth.dots
 }

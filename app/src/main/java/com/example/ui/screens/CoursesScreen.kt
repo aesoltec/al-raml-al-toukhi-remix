@@ -760,6 +760,32 @@ private fun CourseLessonSectionCard(lesson: CourseLessonSection) {
           )
         }
       }
+      if (lesson.visualAids.isNotEmpty()) {
+        Surface(
+          shape = RoundedCornerShape(8.dp),
+          color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.55f),
+        ) {
+          Column(
+            modifier = Modifier.fillMaxWidth().padding(horizontal = 9.dp, vertical = 6.dp),
+            verticalArrangement = Arrangement.spacedBy(4.dp),
+          ) {
+            Text(
+              text = "Représentations visuelles :",
+              style = MaterialTheme.typography.labelSmall,
+              fontWeight = FontWeight.Bold,
+              color = MaterialTheme.colorScheme.onSurfaceVariant,
+            )
+            lesson.visualAids.forEach { aid ->
+              Text(
+                text = aid,
+                style = MaterialTheme.typography.labelSmall,
+                fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
+                color = MaterialTheme.colorScheme.onSurface,
+              )
+            }
+          }
+        }
+      }
     }
   }
 }
@@ -803,6 +829,14 @@ private fun CourseFigureFocusRow(
           style = MaterialTheme.typography.bodySmall,
           color = MaterialTheme.colorScheme.onSurfaceVariant,
         )
+        if (focus.displayVisual.isNotEmpty()) {
+          Text(
+            text = focus.displayVisual,
+            style = MaterialTheme.typography.labelSmall,
+            fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
+            color = MaterialTheme.colorScheme.onSurfaceVariant,
+          )
+        }
       }
     }
   }

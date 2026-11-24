@@ -7,9 +7,13 @@ package com.example.geomancy
 data class CourseFigureFocus(
   val figureId: Int,
   val roleInLesson: String,
+  val visualRepresentation: String = "",
 ) {
   val figure: GeomanticFigure
     get() = AlToukhiFigures.findById(figureId)
+
+  val displayVisual: String
+    get() = if (visualRepresentation.isNotEmpty()) visualRepresentation else figure.visualRepresentation
 }
 
 /**
@@ -50,6 +54,7 @@ data class CourseLessonSection(
   val arabicTerms: String = "",
   val body: String,
   val keyFormulaOrTable: String = "",
+  val visualAids: List<String> = emptyList(),
 )
 
 /**
