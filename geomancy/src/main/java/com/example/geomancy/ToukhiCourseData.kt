@@ -59,7 +59,7 @@ val toukhiCourseBook: CourseBook =
                   "Vérifie la parité du Juge M15 (nombre pair de points total) avant de conclure sur M16.",
                 ),
             ),
-          detailedLessons = bulughM1Lessons,
+          detailedLessons = bulughM1Lessons + bulughExtraLessons.subList(0, 1),
         ),
         CourseModule(
           id = "m1_2_natures_maisons",
@@ -99,7 +99,7 @@ val toukhiCourseBook: CourseBook =
                   "Observer la complémentarité des éléments Feu/Air et Eau/Terre à travers M7, M10 et les 4 Mawāzīn.",
                 ),
             ),
-          detailedLessons = bulughM2Lessons,
+          detailedLessons = bulughM2Lessons + bulughExtraLessons.subList(1, 2),
         ),
         CourseModule(
           id = "m1_3_tasakin_damir",
@@ -140,7 +140,7 @@ val toukhiCourseBook: CourseBook =
                   "Compare le total des points aux seuils de 60 et 90 (Bāb 14) et relève l'élément dominant dans le Ḍamīr.",
                 ),
             ),
-          detailedLessons = bulughM3Lessons,
+          detailedLessons = bulughM3Lessons + bulughExtraLessons.subList(2, 3),
         ),
         CourseModule(
           id = "m1_4_jugements_duel",
@@ -179,7 +179,7 @@ val toukhiCourseBook: CourseBook =
                   "Le moteur compare les axes (M1, M2, M10, M13) contre (M7, M8, M4, M14) puis tranche par M15.",
                 ),
             ),
-          detailedLessons = bulughM4Lessons,
+          detailedLessons = bulughM4Lessons + bulughExtraLessons.subList(3, 4),
         ),
         CourseModule(
           id = "m1_5_hulul_jadawil_p97",
@@ -218,7 +218,7 @@ val toukhiCourseBook: CourseBook =
                   "Repère toute figure répétée trois fois ou plus (Mustawlī) qui impose sa sentence à l'ensemble du thème.",
                 ),
             ),
-          detailedLessons = bulughM5Lessons,
+          detailedLessons = bulughM5Lessons + bulughExtraLessons.subList(4, 5),
         ),
       ),
   )
