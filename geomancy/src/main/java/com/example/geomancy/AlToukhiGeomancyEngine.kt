@@ -441,6 +441,7 @@ object AlToukhiGeomancyEngine {
    * de poids des figures [weightTable] enrichie par les règles de « Bulūgh al-Amal »
    * (Bāb 1, 4, 14, 26, 29 et Faṣl fī al-Khuṣūma p. 97).
    */
+  @Reliability(ReliabilityLevel.D)
   fun predictContestOutcome(
     houses: List<ChartHouse>,
     weightTable: FigureWeightTable = FigureWeightTable.default(),
@@ -795,6 +796,7 @@ object AlToukhiGeomancyEngine {
     )
   }
 
+  @Reliability(ReliabilityLevel.D)
   private fun computeContestMatchPrecision(
     houses: List<ChartHouse>,
     predictedOutcome: MatchOutcome,
@@ -1035,6 +1037,7 @@ object AlToukhiGeomancyEngine {
    * 3) Thème intérieur caché (Bāṭin al-Takht : M_i + gouverneur Taskīn, pp. 141–143)
    * 4) Nature de l'obstacle en M12 (p. 136) et cadence traditionnelle des délais (pp. 250–265)
    */
+  @Reliability(ReliabilityLevel.D)
   fun computeAlFulkGeneralInsights(
     houses: List<ChartHouse>,
     domain: QuestionDomain = QuestionDomain.GENERAL,
@@ -1640,6 +1643,7 @@ object AlToukhiGeomancyEngine {
    * 4) Aspects astrologiques entre maisons répétées (Ittiṣālāt 1..12, p. 28) & Amitiés/Inimitiés planétaires
    * 5) Échelle temporelle d'Al-Ṭarābulusī (MS 2380 p. 29 / MS 2405 p. 24).
    */
+  @Reliability(ReliabilityLevel.D)
   fun computeAlQawlGeneralInsights(
     houses: List<ChartHouse>,
     domain: QuestionDomain = QuestionDomain.GENERAL,
