@@ -384,14 +384,14 @@ object AlToukhiGeomancyEngine {
 
     return TakhtAnalysis(
       overallPolarity = overallPolarity,
-      verdictHeadline = verdictHeadline,
-      verdictDetail = verdictDetail,
+      verdictHeadline = HumanTranslationLayer.humanize(verdictHeadline),
+      verdictDetail = HumanTranslationLayer.humanize(verdictDetail),
       damirReport =
         DamirReport(
           dominantElement = dominantElement,
           elementCounts = elementCounts,
-          unspokenFocus = unspokenFocus,
-          taskinResonance = taskinResonance,
+          unspokenFocus = HumanTranslationLayer.humanize(unspokenFocus),
+          taskinResonance = HumanTranslationLayer.humanize(taskinResonance),
         ),
       querentMigration =
         MigrationLink(
@@ -399,7 +399,7 @@ object AlToukhiGeomancyEngine {
           sourceLabel = "Consultant (M1)",
           figure = h1,
           repeatedHouses = querentRepeats,
-          interpretation = querentMigrationText,
+          interpretation = HumanTranslationLayer.humanize(querentMigrationText),
         ),
       domainMigration =
         MigrationLink(
@@ -407,7 +407,7 @@ object AlToukhiGeomancyEngine {
           sourceLabel = "${domain.title} (M$domainHouseNum)",
           figure = domainFig,
           repeatedHouses = domainRepeats,
-          interpretation = domainMigrationText,
+          interpretation = HumanTranslationLayer.humanize(domainMigrationText),
         ),
       judgeFlanking =
         FlankingReport(
@@ -415,7 +415,7 @@ object AlToukhiGeomancyEngine {
           targetFigure = targetChartHouse.figure,
           leftNeighbor = leftNeighbor,
           rightNeighbor = rightNeighbor,
-          status = flankingStatus,
+          status = HumanTranslationLayer.humanize(flankingStatus),
         ),
       abjadExtraction =
         AbjadExtraction(
@@ -426,9 +426,9 @@ object AlToukhiGeomancyEngine {
           timingEstimate = timingUnit,
           favorableDirection = judge.dominantElement.direction,
         ),
-      planetaryAlignmentNote = planetaryAlignmentNote,
-      humoralDiagnosis = humoralDiagnosis,
-      spiritualPrescription = spiritualPrescription,
+      planetaryAlignmentNote = HumanTranslationLayer.humanize(planetaryAlignmentNote),
+      humoralDiagnosis = HumanTranslationLayer.humanize(humoralDiagnosis),
+      spiritualPrescription = HumanTranslationLayer.humanize(spiritualPrescription),
       contestComparison = contestPrediction?.summaryText,
       contestPrediction = contestPrediction,
       alFulkInsights = alFulkInsights,
@@ -787,7 +787,7 @@ object AlToukhiGeomancyEngine {
       sideBScore = sideBScore,
       campBCapturesOutcome = campBCapturesOutcome,
       hasDrawSignal = hasDrawSignal,
-      summaryText = "Al-Ghālib wa-l-Maghlūb$calibratedTag : $edgeText",
+      summaryText = HumanTranslationLayer.humanize("Al-Ghālib wa-l-Maghlūb$calibratedTag : $edgeText"),
       bulughInsights = insights,
       alFulkInsights = alFulkDuel,
       hawiInsights = hawiDuel,
