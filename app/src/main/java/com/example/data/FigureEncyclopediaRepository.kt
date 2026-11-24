@@ -36,6 +36,17 @@ class FigureEncyclopediaRepository(
     dao.insertAll(seedEntities)
   }
 
+  /**
+   * Re-seed with updated encyclopedia data (including simple explanations and visual representations).
+   * Call this when the app is updated with new encyclopedia data.
+   */
+  suspend fun reseedWithEncyclopedia() {
+    val favoriteIds = dao.getFavoriteIds().toSet()
+    val seedEntities = buildSeedEntities(favoriteIds)
+    dao.clearAll()
+    dao.insertAll(seedEntities)
+  }
+
   suspend fun toggleFavorite(id: Int, isFavorite: Boolean) {
     dao.updateFavorite(id = id, isFavorite = isFavorite)
   }
@@ -46,6 +57,7 @@ class FigureEncyclopediaRepository(
   companion object {
     fun buildSeedEntities(favoriteIds: Set<Int> = emptySet()): List<GeomanticFigureEntity> =
       AlToukhiFigures.allInWestAfricanOrder.map { fig ->
+        val encEntry = com.example.geomancy.GeomanticFigureEncyclopedia.findByCode(fig.code)
         val taskinHouse = AlToukhiHouses.findByNumber(fig.id)
         val sharafNum = AlToukhiHouses.sharafHouseFor(fig.planet)
         val hubutNum = AlToukhiHouses.hubutHouseFor(fig.planet)
@@ -101,6 +113,9 @@ class FigureEncyclopediaRepository(
           spiritualTemperament = fig.spiritualProfile.spiritualTemperament,
           operativeNote = fig.spiritualProfile.operativeNote,
           counsel = fig.spiritualProfile.counsel,
+          simpleExplanation = encEntry?.simpleExplanation ?: fig.generalMeaning,
+          detailedDescription = encEntry?.detailedDescription ?: fig.generalMeaning,
+          visualRepresentation = encEntry?.visualRepresentation ?: "",
           isFavorite = fig.id in favoriteIds,
         )
       }

@@ -7,7 +7,7 @@ import androidx.room.RoomDatabase
 
 @Database(
   entities = [GeomanticFigureEntity::class],
-  version = 1,
+  version = 2,
   exportSchema = false,
 )
 abstract class FigureEncyclopediaDatabase : RoomDatabase() {
@@ -25,6 +25,7 @@ abstract class FigureEncyclopediaDatabase : RoomDatabase() {
                 FigureEncyclopediaDatabase::class.java,
                 "al_raml_figures_encyclopedia.db",
               )
+              .fallbackToDestructiveMigration(dropAllTables = true)
               .build()
               .also { instance = it }
         }

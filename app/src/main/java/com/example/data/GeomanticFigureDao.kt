@@ -58,6 +58,9 @@ interface GeomanticFigureDao {
   @Insert(onConflict = OnConflictStrategy.REPLACE)
   suspend fun insertAll(figures: List<GeomanticFigureEntity>)
 
+  @Query("DELETE FROM geomantic_figures")
+  suspend fun clearAll()
+
   @Query("UPDATE geomantic_figures SET isFavorite = :isFavorite WHERE id = :id")
   suspend fun updateFavorite(id: Int, isFavorite: Boolean)
 }

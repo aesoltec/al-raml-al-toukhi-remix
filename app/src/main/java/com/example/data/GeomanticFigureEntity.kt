@@ -44,5 +44,8 @@ data class GeomanticFigureEntity(
   val spiritualTemperament: String,
   val operativeNote: String,
   val counsel: String,
+  val simpleExplanation: String = "",
+  val detailedDescription: String = "",
+  val visualRepresentation: String = "",
   val isFavorite: Boolean = false,
 )
