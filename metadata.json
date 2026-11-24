@@ -1,0 +1,6 @@
+{
+  "name": "Al-Raml Al-Toukhi",
+  "description": "Moteur géomantique de Ilm al-Raml selon Cheikh al-Toukhi, analyse du Takht à 16 maisons, archives locales et encyclopédie des 16 figures ouest-africaines.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

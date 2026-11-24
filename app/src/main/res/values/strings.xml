@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Al-Raml Al-Toukhi Remix</string>
+    <string name="subtitle_method">Cheikh Al-Toukhi • Ilm al-Raml</string>
+
+    <string name="nav_cast">Tirer</string>
+    <string name="nav_takht">Takht</string>
+    <string name="nav_saved">Archives</string>
+    <string name="nav_figures">Figures</string>
+    <string name="nav_tradition">Cours</string>
+    <string name="nav_more">Plus</string>
+    <string name="nav_settings">Paramètres</string>
+    <string name="menu_open_desc">Ouvrir le menu et les paramètres</string>
+    <string name="settings_title">Paramètres &amp; Options</string>
+    <string name="settings_desc">Configure la protection horaire du Raml, les options de prédiction, l’auto-enregistrement et la calibration.</string>
+
+    <string name="cast_header_title">Frapper le Sable</string>
+    <string name="cast_header_desc">Formule une intention claire (Niyya), choisis l’heure planétaire et trace quatre Mères pour ériger le Takht al-Raml à 16 maisons.</string>
+    <string name="question_label">Intention / Question (optionnel)</string>
+    <string name="question_placeholder">ex. Éclairage sur mon projet, voyage ou duel sportif…</string>
+    <string name="domain_label">Domaine de la question</string>
+    <string name="planet_hour_label">Heure planétaire</string>
+
+    <string name="mode_strike_sand">Frapper le sable (16 lignes)</string>
+    <string name="mode_direct_mothers">Choisir 4 Mères</string>
+    <string name="btn_spontaneous_cast">Tirage spontané</string>
+    <string name="btn_erect_takht">Ériger le Takht</string>
+    <string name="btn_reset_sand">Effacer le sable</string>
+
+    <string name="takht_empty_title">Aucun Takht érigé</string>
+    <string name="takht_empty_desc">Frappe 16 lignes dans le sable ou sélectionne 4 Mères sur l’écran Tirer pour générer le thème à 16 maisons.</string>
+    <string name="takht_go_cast">Aller au tirage</string>
+
+    <string name="btn_save_theme">Enregistrer localement</string>
+    <string name="btn_edit_context">Modifier le contexte</string>
+    <string name="save_dialog_title">Enregistrer le thème</string>
+    <string name="save_title_label">Titre du thème</string>
+    <string name="save_title_placeholder">ex. Mauritanie vs Burkina Faso</string>
+    <string name="save_context_label">Contexte / Issue / Score observé</string>
+    <string name="save_context_placeholder">ex. Match du 17-11-2026, score final 1-3…</string>
+
+    <string name="saved_header_title">Thèmes Enregistrés</string>
+    <string name="saved_header_desc">Tes thèmes Takht al-Raml archivés localement avec leurs contextes et résultats observés.</string>
+    <string name="saved_empty_title">Aucun thème archivé</string>
+    <string name="saved_empty_desc">Érige un Takht à 16 maisons puis appuie sur Enregistrer localement pour conserver tes tirages et leur suivi sur cet appareil.</string>
+
+    <string name="figures_search_hint">Rechercher Djanfa, Adama, nom arabe, planète…</string>
+    <string name="filter_all">Toutes (16)</string>
+
+    <string name="tradition_title">Cours &amp; Tradition Raml</string>
+    <string name="tab_courses">Cours</string>
+    <string name="tab_timeline">Chronologie</string>
+    <string name="tab_guide">Méthode</string>
+</resources>
