@@ -1,4 +1,4 @@
-﻿package com.example
+package com.example
 
 import android.content.Context
 import android.os.Bundle
@@ -74,6 +74,8 @@ import com.example.ui.screens.FigureDetailBottomSheet
 import com.example.ui.screens.EncyclopediaScreen
 import com.example.ui.screens.FiguresCatalogScreen
 import com.example.ui.screens.GuideScreen
+import com.example.ui.screens.InteractiveLessonsScreen
+import com.example.ui.screens.ExercisesScreen
 import com.example.ui.screens.SavedThemesScreen
 import com.example.ui.screens.SettingsScreen
 import com.example.ui.screens.TakhtScreen
@@ -86,6 +88,8 @@ const val ROUTE_TAKHT = "takht"
 const val ROUTE_SAVED = "saved"
 const val ROUTE_FIGURES = "figures"
 const val ROUTE_GUIDE = "guide"
+const val ROUTE_LESSONS = "lessons"
+const val ROUTE_EXERCISES = "exercises"
 const val ROUTE_SETTINGS = "settings"
 
 private data class NavTab(
@@ -519,6 +523,14 @@ fun AlRamlApp() {
               externalSelectedTab = uiState.selectedGuideTab,
               onSelectTab = viewModel::selectGuideTab,
             )
+          }
+
+          composable(ROUTE_LESSONS) {
+            InteractiveLessonsScreen()
+          
+          composable(ROUTE_EXERCISES) {
+            ExercisesScreen()
+          }
           }
 
           composable(ROUTE_SETTINGS) {
