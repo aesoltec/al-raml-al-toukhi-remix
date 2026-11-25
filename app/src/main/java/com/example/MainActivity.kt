@@ -226,6 +226,14 @@ fun AlRamlApp() {
           coroutineScope.launch { drawerState.close() }
           navigateToTab(ROUTE_FIGURES)
         },
+        onNavigateToLessons = {
+          coroutineScope.launch { drawerState.close() }
+          navigateToTab(ROUTE_LESSONS)
+        },
+        onNavigateToExercises = {
+          coroutineScope.launch { drawerState.close() }
+          navigateToTab(ROUTE_EXERCISES)
+        },
         onNavigateToGuideTab = { tabIndex ->
           viewModel.selectGuideTab(tabIndex)
           coroutineScope.launch { drawerState.close() }

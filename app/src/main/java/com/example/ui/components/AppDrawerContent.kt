@@ -14,6 +14,8 @@ import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.automirrored.rounded.MenuBook
 import androidx.compose.material.icons.rounded.AutoAwesome
+import androidx.compose.material.icons.rounded.Edit
+import androidx.compose.material.icons.rounded.Edit
 import androidx.compose.material.icons.rounded.Bookmarks
 import androidx.compose.material.icons.rounded.Close
 import androidx.compose.material.icons.rounded.GridView
@@ -53,6 +55,8 @@ fun AppDrawerSheet(
   onNavigateToTakht: () -> Unit,
   onNavigateToSaved: () -> Unit,
   onNavigateToFigures: () -> Unit,
+  onNavigateToLessons: () -> Unit,
+  onNavigateToExercises: () -> Unit,
   onNavigateToGuideTab: (Int) -> Unit,
   onNavigateToSettings: () -> Unit,
   onCloseDrawer: () -> Unit,
@@ -152,6 +156,24 @@ fun AppDrawerSheet(
         icon = { Icon(Icons.Rounded.Style, contentDescription = null) },
         modifier =
           Modifier.padding(NavigationDrawerItemDefaults.ItemPadding).testTag("drawer_figures_item"),
+      )
+
+      NavigationDrawerItem(
+        label = { Text("Leçons Interactives") },
+        selected = currentRoute == "lessons",
+        onClick = onNavigateToLessons,
+        icon = { Icon(Icons.Rounded.HistoryEdu, contentDescription = null) },
+        modifier =
+          Modifier.padding(NavigationDrawerItemDefaults.ItemPadding).testTag("drawer_lessons_item"),
+      )
+
+      NavigationDrawerItem(
+        label = { Text("Exercices Pratiques") },
+        selected = currentRoute == "exercises",
+        onClick = onNavigateToExercises,
+        icon = { Icon(Icons.Rounded.Edit, contentDescription = null) },
+        modifier =
+          Modifier.padding(NavigationDrawerItemDefaults.ItemPadding).testTag("drawer_exercises_item"),
       )
 
       NavigationDrawerItem(
