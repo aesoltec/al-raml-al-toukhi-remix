@@ -616,6 +616,33 @@ private fun CourseModuleCard(
             }
           }
 
+          if (module.visualAids.isNotEmpty()) {
+            Surface(
+              shape = RoundedCornerShape(8.dp),
+              color = MaterialTheme.colorScheme.surfaceVariant.copy(alpha = 0.55f),
+            ) {
+              Column(
+                modifier = Modifier.fillMaxWidth().padding(horizontal = 9.dp, vertical = 6.dp),
+                verticalArrangement = Arrangement.spacedBy(4.dp),
+              ) {
+                Text(
+                  text = "Représentations visuelles :",
+                  style = MaterialTheme.typography.labelSmall,
+                  fontWeight = FontWeight.Bold,
+                  color = MaterialTheme.colorScheme.onSurfaceVariant,
+                )
+                module.visualAids.forEach { aid ->
+                  Text(
+                    text = aid,
+                    style = MaterialTheme.typography.labelSmall,
+                    fontFamily = androidx.compose.ui.text.font.FontFamily.Monospace,
+                    color = MaterialTheme.colorScheme.onSurface,
+                  )
+                }
+              }
+            }
+          }
+
           if (module.detailedLessons.isNotEmpty()) {
             Column(
               verticalArrangement = Arrangement.spacedBy(8.dp),

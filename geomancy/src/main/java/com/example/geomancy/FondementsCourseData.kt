@@ -1,4 +1,4 @@
-﻿package com.example.geomancy
+package com.example.geomancy
 
 /**
  * Cours fondamental : Fondements de la geomancie (Ilm al-Raml).
@@ -25,9 +25,12 @@ val fondementsCourseLessons: List<CourseLessonSection> = listOf(
     keyFormulaOrTable = "Taskin = grille de repos des 16 figures. M1=1121, M2=1222, M3=2111, M4=2212, M5=1111, M6=1212, M7=2122, M8=2221, M9=1122, M10=1221, M11=2112, M12=2211, M13=1112, M14=1211, M15=2121, M16=2222.",
     visualAids = listOf(
       "M8  M7  M6  M5  M4  M3  M2  M1",
-      "    M12  M11  M10  M9",
-      "        M14          M13",
-      "            M15          M16",
+      "  M12    M11      M10     M9",
+      "      M14             M13",
+      "            M15             M16",
+      "  M12    M11      M10     M9",
+      "      M14             M13",
+      "            M15             M16",
     ),
   ),
   CourseLessonSection(

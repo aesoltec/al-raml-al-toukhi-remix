@@ -181,6 +181,7 @@ object AlToukhiGeomancyEngine {
     )
   }
 
+  @Reliability(ReliabilityLevel.D)
   private fun analyzeTakht(
     houses: List<ChartHouse>,
     domain: QuestionDomain,

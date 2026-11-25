@@ -77,7 +77,7 @@ object PedagogicalContent {
         "4. Quand une figure tombe dans sa maison de repos, c'est un bon signe.",
         "5. La disposition de l'écu est : M8 M7 M6 M5 M4 M3 M2 M1 (rangée du haut).",
       ),
-      visualAid = "M8  M7  M6  M5  M4  M3  M2  M1\n    M12  M11  M10  M9\n        M14          M13\n            M15          M16",
+      visualAid = "M8  M7  M6  M5  M4  M3  M2  M1\n  M12    M11      M10     M9\n      M14             M13\n            M15             M16",
       example = "M1 = 1121 (Djanfa Almamy) est la maison du consultant. Si Djanfa Almamy tombe en M1, c'est un bon signe.",
     ),
 

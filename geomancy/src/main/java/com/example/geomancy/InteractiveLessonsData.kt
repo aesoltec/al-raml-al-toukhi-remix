@@ -1,4 +1,4 @@
-﻿package com.example.geomancy
+package com.example.geomancy
 
 /**
  * DonnÃ©es des leÃ§ons interactives pour l'application Al-Raml Al-Toukhi.
@@ -147,9 +147,9 @@ object InteractiveLessonsData {
         DISPOSITION DE L'Ã‰CU (bouclier du takht) :
 
         M8  M7  M6  M5  M4  M3  M2  M1
-            M12  M11  M10  M9
-                M14          M13
-                    M15          M16
+            M12    M11      M10     M9
+      M14             M13
+            M15             M16
 
         RÃ¨gle : une clÃ© de placement n'est pas un Ã©lÃ©ment. La table figure â†’ Ã©lÃ©ment est saisie code par code.
 

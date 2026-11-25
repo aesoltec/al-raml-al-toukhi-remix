@@ -71,6 +71,7 @@ data class CourseModule(
   val featuredFigures: List<CourseFigureFocus>,
   val takhtExample: CourseTakhtExample? = null,
   val detailedLessons: List<CourseLessonSection> = emptyList(),
+  val visualAids: List<String> = emptyList(),
 )
 
 /**
