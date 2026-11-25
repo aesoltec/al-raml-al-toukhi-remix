@@ -58,7 +58,7 @@ val bahriCourseBook: CourseBook =
                   "Le contrôle Ṣidq al-Raml valide la sincérité de l'intention avant toute décision.",
                 ),
             ),
-          detailedLessons = bahriM1Lessons,
+          detailedLessons = bahriM1Lessons + bahriExtraLessons2.subList(0, 1),
         ),
         CourseModule(
           id = "m2_2_tasakin_abdah_bazdah",
@@ -97,7 +97,7 @@ val bahriCourseBook: CourseBook =
                   "Suivre dans le Bāṭin al-Takht comment le gouverneur naturel éclaire chaque maison tirée.",
                 ),
             ),
-          detailedLessons = bahriM2Lessons,
+          detailedLessons = bahriM2Lessons + bahriExtraLessons2.subList(1, 2),
         ),
         CourseModule(
           id = "m2_3_sidq_batin_pures",
@@ -136,7 +136,7 @@ val bahriCourseBook: CourseBook =
                   "Comme Adama réapparaît en M2 et M6, le bandeau Ṣidq al-Raml confirme « Thème Sincère (Ṣādiq) ».",
                 ),
             ),
-          detailedLessons = bahriM3Lessons,
+          detailedLessons = bahriM3Lessons + bahriExtraLessons2.subList(2, 3),
         ),
         CourseModule(
           id = "m2_4_dignites_consultations",
@@ -175,7 +175,7 @@ val bahriCourseBook: CourseBook =
                   "M4 (Bayada 2212) assure un retour paisible ; consulte l'onglet Bāṭin & Dignités sur le Takht complet.",
                 ),
             ),
-          detailedLessons = bahriM4Lessons,
+          detailedLessons = bahriM4Lessons + bahriExtraLessons2.subList(3, 4),
         ),
         CourseModule(
           id = "m2_5_duel_mod9_zairja",
@@ -272,7 +272,7 @@ val qawlCourseBook: CourseBook =
                   "Consulte le panneau Al-Qawl al-Jāmiʿ sur le Takht complet pour lire la balance des 96 points et Vie vs Fermeture.",
                 ),
             ),
-          detailedLessons = qawlM1Lessons,
+          detailedLessons = qawlM1Lessons + qawlExtraLessons2.subList(0, 1),
         ),
         CourseModule(
           id = "m3_2_triangles_aspects_tasir",
@@ -310,7 +310,7 @@ val qawlCourseBook: CourseBook =
                   "Ouvre le Takht complet pour comparer l'harmonie entre T2 (Dalīl) et T5 (ʿĀqiba) ainsi que les aspects M1–M12.",
                 ),
             ),
-          detailedLessons = qawlM2Lessons,
+          detailedLessons = qawlM2Lessons + qawlExtraLessons2.subList(1, 2),
         ),
         CourseModule(
           id = "m3_3_consultations_specialisees",
@@ -348,7 +348,7 @@ val qawlCourseBook: CourseBook =
                   "Vérifie l'aspect entre M1 et M7 ainsi que les Isqāṭāt modulo 7 dans la synthèse complète.",
                 ),
             ),
-          detailedLessons = qawlM3Lessons,
+          detailedLessons = qawlM3Lessons + qawlExtraLessons2.subList(2, 3),
         ),
       ),
   )
