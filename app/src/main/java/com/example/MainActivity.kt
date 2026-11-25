@@ -1,4 +1,4 @@
-package com.example
+﻿package com.example
 
 import android.content.Context
 import android.os.Bundle
@@ -71,6 +71,7 @@ import com.example.ui.GeomancyViewModelFactory
 import com.example.ui.components.AppDrawerSheet
 import com.example.ui.screens.CastScreen
 import com.example.ui.screens.FigureDetailBottomSheet
+import com.example.ui.screens.EncyclopediaScreen
 import com.example.ui.screens.FiguresCatalogScreen
 import com.example.ui.screens.GuideScreen
 import com.example.ui.screens.SavedThemesScreen
@@ -560,3 +561,4 @@ fun AlRamlApp() {
     )
   }
 }
+
