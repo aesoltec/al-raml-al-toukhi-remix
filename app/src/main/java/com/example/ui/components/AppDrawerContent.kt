@@ -177,10 +177,10 @@ fun AppDrawerSheet(
       )
 
       NavigationDrawerItem(
-        label = { Text("Cours & Livres (${GeomancyCoursesCatalog.allBooks.size} Traités)") },
+        label = { Text("Cours & Modules") },
         badge = {
           Text(
-            text = "$completedCourses/${GeomancyCoursesCatalog.totalModulesCount}",
+            text = "$completedCourses modules",
             style = MaterialTheme.typography.labelSmall,
           )
         },

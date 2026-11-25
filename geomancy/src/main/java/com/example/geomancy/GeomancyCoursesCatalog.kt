@@ -1,7 +1,7 @@
 package com.example.geomancy
 
 /**
- * Catalogue ordonné des 7 cours complets tirés des traités et manuscrits de Ilm al-Raml,
+ * Catalogue des cours de géomancie (Ilm al-Raml),
  * commençant obligatoirement par Cheikh ʿAbd al-Fattāḥ al-Sayyid al-Ṭūkhī
  * (Bulūgh al-Amal & Manbaʿ Uṣūl al-Raml).
  */
